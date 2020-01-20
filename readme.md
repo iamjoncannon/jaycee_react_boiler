@@ -4,7 +4,7 @@
 
 1. init project
 ```bash
-npm init-project
+npm run init-project
 ```
 
 2. Rename the folder and project name in package.json 
