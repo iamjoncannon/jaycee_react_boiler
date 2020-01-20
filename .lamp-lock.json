@@ -1,0 +1,44 @@
+{
+	"Structure": "Ducks",
+	"Models": [
+		{
+			"User": null,
+			"CRUD": false,
+			"Slice": [
+				{
+					"FirstName": "string"
+				},
+				{
+					"LastName": "string"
+				},
+				{
+					"email": "string"
+				},
+				{
+					"token": "string"
+				},
+				{
+					"isLoggedIn": "boolean"
+				}
+			],
+			"Actions": [
+				"login",
+				"register"
+			],
+			"Thunks": [
+				{
+					"loginThunk": [
+						"/login",
+						"login"
+					]
+				},
+				{
+					"registerThunk": [
+						"/signup",
+						"login"
+					]
+				}
+			]
+		}
+	]
+}
