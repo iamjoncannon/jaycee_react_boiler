@@ -1,6 +1,6 @@
 {
   "name": "jaycee_react_boiler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "app/main.jsx",
   "scripts": {
     "init-project": "rm -rf .git && git init && npm install && npm install-lazy && npm start",
