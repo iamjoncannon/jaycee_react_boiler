@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "main": "app/main.jsx",
   "scripts": {
-    "init-project": "rm -rf .git && git init && npm install && npm install-lazy && npm start",
+    "init-project": "rm -rf .git && git init && npm install && npm run install-lazy && npm start",
     "test-summary": "jest --config=jest.config.js --coverage --watch -- -u",
     "test": "jest $1 --config=jest.config.js --watch -- -u",
     "start": "npm run build & npm run start-server",
