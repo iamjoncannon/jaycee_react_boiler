@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "main": "app/main.jsx",
   "scripts": {
-    "install": "npm i",
+    "install": "git clone https://github.com/iamjoncannon/jaycee_react_boiler.git && cd jaycee_react_boiler && npm run init-project",
     "init-project": "rm -rf .git && git init && npm install && npm run install-lazy && npm start",
     "test-summary": "jest --config=jest.config.js --coverage --watch -- -u",
     "test": "jest $1 --config=jest.config.js --watch -- -u",
