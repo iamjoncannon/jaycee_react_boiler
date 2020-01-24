@@ -1,6 +1,6 @@
 {
   "name": "jaycee_react_boiler",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "app/main.jsx",
   "scripts": {
     "install": "git clone https://github.com/iamjoncannon/jaycee_react_boiler.git && cd jaycee_react_boiler && npm run init-project",
